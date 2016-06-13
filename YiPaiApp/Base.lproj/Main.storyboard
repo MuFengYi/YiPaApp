@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scnceimage" translatesAutoresizingMaskIntoConstraints="NO" id="Lae-o7-cA3">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一 键 生 成 电 影 大 片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzc-L9-x4P">
+                                <rect key="frame" x="113" y="149" width="150" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="FCW-G9-vUy"/>
+                                    <constraint firstAttribute="height" constant="18" id="kRA-gm-WT7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.95586726641414144" green="0.95586726641414144" blue="0.95586726641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="易 拍 大 师" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-PT-OeL">
+                                <rect key="frame" x="113" y="112" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="NMb-fs-P7i"/>
+                                    <constraint firstAttribute="height" constant="34" id="Xk5-Ag-T2J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-3I-KeS">
+                                <rect key="frame" x="83" y="440" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.49202269720000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1xC-I3-9Sg"/>
+                                    <constraint firstAttribute="width" constant="60" id="htG-sY-Ax9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="创作视频">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TD4-f8-yuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Pw-3K-UHn">
+                                <rect key="frame" x="229" y="440" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="4wb-DJ-sEv"/>
+                                    <constraint firstAttribute="height" constant="60" id="SA2-n7-c7d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="我的视频">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eh-mW-7jF">
+                                <rect key="frame" x="335" y="617" width="32" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0cN-nY-NiQ"/>
+                                    <constraint firstAttribute="width" constant="32" id="R9P-km-xPe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="设置">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="1eh-mW-7jF" secondAttribute="trailing" constant="-8" id="6PG-if-pTi"/>
+                            <constraint firstItem="AAy-3I-KeS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-74.5" id="6w2-Qc-R4w"/>
+                            <constraint firstItem="Xws-PT-OeL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUL-wc-2yK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lae-o7-cA3" secondAttribute="bottom" id="NvI-jn-YPM"/>
+                            <constraint firstItem="Gzc-L9-x4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PBC-QY-lxL"/>
+                            <constraint firstItem="4Pw-3K-UHn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="71.5" id="Sd0-Tb-mDF"/>
+                            <constraint firstItem="4Pw-3K-UHn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="136.5" id="XdR-ZF-mKw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lae-o7-cA3" secondAttribute="trailing" constant="-20" id="ZQQ-iG-B2e"/>
+                            <constraint firstItem="Xws-PT-OeL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="92" id="fql-2c-9Te"/>
+                            <constraint firstItem="AAy-3I-KeS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="136.5" id="gXF-sI-Fow"/>
+                            <constraint firstItem="Lae-o7-cA3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="mRH-0y-5Zk"/>
+                            <constraint firstItem="Lae-o7-cA3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="t85-aH-g8M"/>
+                            <constraint firstItem="Gzc-L9-x4P" firstAttribute="top" secondItem="Xws-PT-OeL" secondAttribute="bottom" constant="3" id="vE8-oB-5cF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1eh-mW-7jF" secondAttribute="bottom" constant="20" id="ytX-ZH-ieO"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="creatVideoButton" destination="AAy-3I-KeS" id="1pS-bO-Q9T"/>
+                        <outlet property="myVideoButton" destination="4Pw-3K-UHn" id="Qx4-qx-Mnr"/>
+                        <outlet property="setButton" destination="1eh-mW-7jF" id="OdX-Uj-LIY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312.5" y="247.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scnceimage" width="375" height="667"/>
+    </resources>
+</document>
